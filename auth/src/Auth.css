@@ -1,0 +1,44 @@
+.Authclass {
+    background-image: url('https://th.bing.com/th/id/OIG4.bRqQbx5VvL7VUFvgTLg7?w=1024&h=1024&rs=1&pid=ImgDetMain'); 
+    /* https://th.bing.com/th/id/OIG1.ECAHhMdxfp.5V.p8lDqB?pid=ImgGn */
+    /* https://th.bing.com/th/id/OIG1.eYz00e94YnPYAKse7Mn9?pid=ImgGn */
+    /* https://th.bing.com/th/id/OIG4.idlhGLNH2vrn8.TWT6qz?pid=ImgGn */
+     /* background-image: url('https://th.bing.com/th/id/OIG3.fvwIE.V35d.ipSoMtKJ3?pid=ImgGn'); */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+   width: calc(100% - 20px);
+   padding: 10px; 
+   margin-bottom: 20px; 
+   border-radius :5px; 
+   border :1px solid #ccc
+}
+
+button {
+   padding :10px ; 
+   color :#ffffff; 
+     margin-right: 10px;
+   background-color: lightcoral;
+   border:none ; 
+   border-radius :5px ;
+}
+button:hover{
+/* background-color:#333 */
+background-color: black;
+}

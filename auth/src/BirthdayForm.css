@@ -1,0 +1,13 @@
+/* .Birthday-{
+    background-image: url('https://th.bing.com/th/id/OIG3.Ixh.iZhbNJrQpkwNgLGS?w=1024&h=1024&rs=1&pid=ImgDetMain'); 
+  background-size: cover
+} */
+.bday {
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  background-image: url('https://th.bing.com/th/id/OIG3.Ixh.iZhbNJrQpkwNgLGS?w=1024&h=1024&rs=1&pid=ImgDetMain'); /* Replace with your actual background image URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
